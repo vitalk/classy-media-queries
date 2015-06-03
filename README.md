@@ -6,7 +6,7 @@ Defines a few variables to simplify usage of media queries.
 .main {
     color: orangered;
 
-    @media @laptop {
+    @media @mobile and @retina {
         color: red;
     }
 }
